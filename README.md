@@ -35,7 +35,7 @@ pip install -r requirements.txt
 streamlit run voice_doctor_webui.py 
 ```
 
-### 推荐：运行离线转译脚本
+### 运行离线转译脚本
 ```shell
 python offline_transcribe.py 
 ```
@@ -73,4 +73,5 @@ deepspeed --num_gpus={num_gpus} ./train/train.py
       primaryClass={cs.CL}
 }
 ```
+
 
