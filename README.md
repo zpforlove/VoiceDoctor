@@ -11,9 +11,7 @@ MedLLM 是一个专为医疗健康对话场景而打造的领域大模型，它�
 
 当前版本的 MedLLM 是基于 [Baichuan2-7B-Chat](https://huggingface.co/baichuan-inc/Baichuan2-7B-Chat) 训练得到的。您可以直接从 [BaiduDisk](https://pan.baidu.com/s/19ryE1OFRfkeQ_ZRRIsL7yA?pwd=3wqb) 上下载我们的模型权重。
 
-本项目流畅运行需要先下载 [MeloTTS](https://github.com/myshell-ai/MeloTTS) 到项目目录并按照提示配置好相应环境，接着在环境变量里面设置完成 [DeepSeek API](https://platform.deepseek.com/usage) 。
-
-首先，您需要安装项目的依赖环境（建议Pytorch安装GPU版本）。
+本项目流畅运行需要先下载 [MeloTTS](https://github.com/myshell-ai/MeloTTS) 到项目目录并按照提示配置好相应环境，接着在环境变量里面设置完成 [DeepSeek API](https://platform.deepseek.com/usage) 。接着，您需要安装项目的依赖环境（建议Pytorch安装GPU版本）。
 ```shell
 pip install -r requirements.txt
 ```
@@ -75,6 +73,7 @@ deepspeed --num_gpus={num_gpus} ./train/train.py
       primaryClass={cs.CL}
 }
 ```
+
 
 
 
